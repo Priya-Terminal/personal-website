@@ -26,3 +26,23 @@
       font-size: 50px;
     }
   }
+  /* Footer.css */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .socialMedia {
+    margin-bottom: 10px;
+  }
+
+  .socialMedia svg {
+    font-size: 24px;
+    margin: 5px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

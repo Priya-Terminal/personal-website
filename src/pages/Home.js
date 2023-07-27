@@ -34,20 +34,20 @@ function Home() {
               <GithubIcon style={{ color: "#ffffff" }} />
             </a>
             <a
-              href="https://www.instagram.com/__priyamvadha__"
+              href="https://www.instagram.com/_____priyamvadha"
               target="_blank"
               rel="noopener noreferrer"
             >
               <InstagramIcon style={{ color: "#ffffff" }} />
             </a>
 
-            <a
+            {/* <a
               href="https://twitter.com/@__priyamvadha"
               target="_blank"
               rel="noopener noreferrer"
             >
               <TwitterIcon style={{ color: "#ffffff" }} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

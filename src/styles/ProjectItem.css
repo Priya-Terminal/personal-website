@@ -12,13 +12,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-  /* ProjectItem.css */
+
 @media screen and (max-width: 768px) {
   .projectItem {
     margin-bottom: 20px;
   }
 }
 
-  
-  /* Add any additional styles for ProjectItem here */
   

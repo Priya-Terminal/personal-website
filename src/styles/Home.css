@@ -1,5 +1,4 @@
-/* Home.css */
-.home {
+/* .home {
   font-family: "Arial", sans-serif;
   color: #3e497a;
   display: flex;
@@ -20,6 +19,147 @@
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  box-sizing: border-box; /* Add box-sizing to include padding in width calculation */
+/* }
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  color: #e9d35b;
+  margin-bottom: 10px;
+}
+
+.about .prompt {
+  font-size: 24px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prompt svg {
+  font-size: 30px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 25px;
+  font-family: "Times New Roman";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills h1 {
+  font-size: 70px;
+  color: #3e497a;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.skills .list {
+  list-style: none;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.list span {
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 20px; 
+  }
+
+  .about {
+    margin-bottom: 20px;
+  }
+
+  .skills {
+    margin-top: 20px;
+  }
+
+  .list .item {
+    margin-bottom: 20px;
+  }
+
+
+  .about h2 {
+    font-size: 35px;
+  }
+
+  .about .prompt {
+    font-size: 20px;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .skills h1 {
+    font-size: 50px;
+  }
+
+  .list span {
+    font-size: 25px;
+  }
+
+ 
+  .about {
+    max-width: 100%; 
+    padding: 20px; 
+  }
+}
+
+.home { 
+  padding-top: 70px; 
+} */
+
+
+ /* Home.css */
+/* Global styles */
+/* Home.css */
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles for the navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Customize the background color of the navbar */
+  z-index: 1000; /* Set a higher z-index to ensure it appears on top of other elements */
+  /* Add other styles as needed for your navbar */
+}
+
+/* Add common styles for the home section and other elements */
+.home,
+.about,
+.skills {
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.about {
+  background-color: #21325e;
+  color: #f0f0f0;
+  text-align: center;
+  min-height: calc(100vh - 100px);
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; /* Add box-sizing to include padding in width calculation */
 }
 
 .about h2 {
@@ -56,14 +196,20 @@
 .skills h1 {
   font-size: 70px;
   color: #3e497a;
+  margin-bottom: 20px; /* Adjust the margin to reduce the gap */
   width: 100%;
 }
 
 .skills .list {
   list-style: none;
-  width: 100%;
   white-space: nowrap;
   overflow-x: auto;
+  padding: 0; /* Remove default padding to avoid unnecessary space */
+}
+
+.list-item {
+  display: inline-block; /* Display the list items in a row */
+  margin-right: 10px; /* Add some space between list items */
 }
 
 .list span {
@@ -73,7 +219,8 @@
 /* Media Query for smaller screens */
 @media screen and (max-width: 768px) {
   .home {
-    padding: 50px;
+    padding: 70px 20px 20px; /* Reduce top padding for smaller screens */
+    top: 70px; /* Add space between .navbar and .home */
   }
 
   .about {
@@ -94,7 +241,7 @@
   }
 
   .about .prompt {
-    font-size: 30px;
+    font-size: 20px;
     width: 80%;
     margin-top: 10px;
   }
@@ -106,5 +253,10 @@
   .list span {
     font-size: 25px;
   }
-}
 
+  /* Adjust max-width to fit within smaller screens */
+  .about {
+    max-width: 100%; /* Change to 100% to fit within smaller screens */
+    padding: 20px; /* Add padding to avoid elements sticking to the edges */
+  }
+}

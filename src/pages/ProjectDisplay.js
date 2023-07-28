@@ -8,9 +8,9 @@ import "../styles/ProjectDisplay.css";
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectsList[id];
-  const navigate = useNavigate(); // Get the navigate function
+  const navigate = useNavigate();
 
-  // Check if project.skills is an array before using map
+
   const skillsList = Array.isArray(project.skills) ? project.skills : [];
 
   const openGitHubLink = () => {
@@ -18,7 +18,7 @@ function ProjectDisplay() {
   };
 
   const goBack = () => {
-    navigate(-1); // Navigate back to the previous page
+    navigate(-1); 
   };
 
   return (

@@ -57,13 +57,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS,  NPM, Yarn
+              ReactJS, HTML, CSS, Tailwind css  NPM, Yarn
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS
+              NodeJS, NextJs, ExpressJS
               SQL, MongoDB
             </span>
           </li>

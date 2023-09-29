@@ -57,7 +57,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, Tailwind css  NPM, Yarn
+              ReactJS, HTML, CSS, Tailwind css,  NPM, Yarn
             </span>
           </li>
           <li className="item">
@@ -69,7 +69,7 @@ function Home() {
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python</span>
+            <span>JavaScript, Python, Python</span>
           </li>
         </ol>
       </div>
